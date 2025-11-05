@@ -46,12 +46,14 @@ pop();
 
 //text banner
 strokeWeight(0);
-rect(0, 0, width, 150);
+rect(0, 0, width, 170);
 
 //text
 textSize(75);
 textAlign(CENTER);
 text("Click to feed a hungry Trouble!" , width/2, 100);
+textSize(40);
+text("(his greed knows no bounds)" , width/2, 150);
 }
 
 class Particle {
