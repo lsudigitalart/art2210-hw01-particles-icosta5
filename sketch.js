@@ -18,7 +18,7 @@ function setup() {
 
 function draw() {
     background(220);
-    //load in trouble and food bowl images
+    //load in trouble and food bowl images 
     image(img3, 0, 0, width, height);
     image(img1, width/2 - 400, height - 600, 900, 550);
 
